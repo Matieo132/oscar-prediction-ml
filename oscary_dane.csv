@@ -1,0 +1,470 @@
+Year;Movie;Director_OMDb;Genre;Runtime_min;Rated;IMDb_Rating;IMDb_Votes;Metascore;Rotten_Tomatoes;total_awards;Oscars - Best Picture;BAFTA - Best film;Golden Globes - Best movie;PGA - Best Picutre;Oscars - Best Director;BAFTA - Best Director;Golden Globes - Best Director;Oscars - Best Screenplay;BAFTA - Best Screenplay;Golden Globes - Best Screenplay;Oscars - Best Montage;BAFTA - Best Montage;Oscars - Best Cinematography;BAFTA - Best Cinematography
+2026;Hamnet;Chloé Zhao;Biography, Drama, History;125.0;PG-13;7,8;113944.0;84.0;87.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;Train Dreams;Clint Bentley;Drama;102.0;PG-13;7,5;105672.0;88.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;Sentimental Value;Joachim Trier;Drama;133.0;R;7,7;78390.0;86.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;F1;Joseph Kosinski;Action, Drama, Sport;155.0;PG-13;7,6;359646.0;68.0;82.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;Marty Supreme;Josh Safdie;Drama, Sport;149.0;R;7,6;176024.0;89.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;One Battle After Another;Paul Thomas Anderson;Action, Crime, Drama;161.0;R;7,6;406141.0;95.0;95.0;13;1;1.0;1.0;1.0;1;1;1;1;1;1;1.0;1;0;1
+2026;Sinners;Ryan Coogler;Action, Drama, Horror;137.0;R;7,5;479802.0;84.0;97.0;3;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;1;0
+2026;The Secret Agent;Stan Douglas;Drama;161.0;R;6,8;14.0;92.0;99.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;Bugonia;Yorgos Lanthimos;Comedy, Crime, Sci-Fi;118.0;R;7,4;188812.0;72.0;87.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2026;Frankenstein;Guillermo del Toro;Drama, Horror, Sci-Fi;139.0;R;7,4;314023.0;78.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;The Brutalist;Brady Corbet;Drama;216.0;R;7,2;143419.0;90.0;93.0;5;0;0.0;1.0;0.0;0;1;1;0;0;0;0.0;0;1;1
+2025;The Substance;Coralie Fargeat;Drama, Horror, Sci-Fi;141.0;R;7,2;427402.0;78.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;Dune: Part Two;Denis Villeneuve;Action, Adventure, Drama;166.0;PG-13;8,4;747715.0;79.0;92.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;Conclave;Edward Berger;Drama, Thriller;120.0;PG-13;7,4;265708.0;79.0;93.0;5;0;1.0;0.0;0.0;0;0;0;1;1;1;0.0;1;0;0
+2025;Wicked;Jon M. Chu;Horror;137.0;PG;6,7;58369.0;58.0;66.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;Nickel Boys;RaMell Ross;Drama;140.0;PG-13;6,9;24243.0;91.0;92.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;Anora;Sean Baker;Comedy, Drama, Romance;139.0;R;7,4;278864.0;91.0;93.0;5;1;0.0;0.0;1.0;1;0;0;1;0;0;1.0;0;0;0
+2025;A Complete Unknown;James Mangold;Biography, Drama, Music;141.0;R;7,3;117691.0;70.0;82.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;Emilia Pérez;Jacques Audiard;Crime, Drama, Musical;132.0;R;5,3;119279.0;70.0;71.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2025;I'm Still Here;Walter Salles;Biography, Drama, History;135.0;PG-13;8,1;153892.0;85.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;The Holdovers;Alexander Payne;Comedy, Drama;133.0;R;7,9;254299.0;82.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;Maestro;Bradley Cooper;Drama;129.0;R;6,5;70000.0;77.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;Past Lives;Celine Song;Drama, Romance;105.0;PG-13;7,8;173078.0;94.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;American Fiction;Cord Jefferson;Comedy, Drama;117.0;R;7,5;140067.0;81.0;93.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2024;Barbie;Greta Gerwig;Adventure, Comedy, Fantasy;114.0;PG-13;6,8;677076.0;80.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;The Zone of Interest;Jonathan Glazer;Drama, History, War;105.0;PG-13;7,3;173553.0;92.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;Anatomy of a Fall;Justine Triet;Crime, Drama, Mystery;151.0;R;7,6;216840.0;86.0;96.0;3;0;0.0;0.0;0.0;0;0;0;1;1;1;0.0;0;0;0
+2024;Killers of the Flower Moon;Martin Scorsese;Crime, Drama, History;206.0;R;7,5;307606.0;89.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;Poor Things;Yorgos Lanthimos;Comedy, Drama, Romance;141.0;R;7,7;399312.0;88.0;92.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2024;Oppenheimer;Christopher Nolan;Biography, Drama, History;180.0;R;8,2;1035219.0;90.0;93.0;11;1;1.0;1.0;1.0;1;1;1;0;0;0;1.0;1;1;1
+2023;Everything Everywhere All At Once;Daniel Kwan, Daniel Scheinert;Action, Adventure, Comedy;139.0;R;7,7;635513.0;81.0;93.0;6;1;0.0;0.0;1.0;1;0;0;1;0;0;1.0;1;0;0
+2023;All Quiet on the Western Front;Edward Berger;Drama, History, War;148.0;R;7,8;322911.0;76.0;90.0;5;0;1.0;0.0;0.0;0;1;0;0;1;0;0.0;0;1;1
+2023;Avatar: The Way of Water;James Cameron;Action, Adventure, Animation;192.0;PG-13;7,5;618288.0;67.0;76.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2023;Top Gun: Maverick;Joseph Kosinski;Action, Drama;130.0;PG-13;8,2;866834.0;78.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2023;The Banshees of Inisherin;Martin McDonagh;Comedy, Drama;114.0;R;7,6;296048.0;87.0;96.0;3;0;0.0;1.0;0.0;0;0;0;0;1;1;0.0;0;0;0
+2023;Triangle of Sadness;Ruben Östlund;Comedy, Drama;147.0;R;7,2;216685.0;63.0;72.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2023;Women Talking;Sarah Polley;Drama;104.0;PG-13;6,9;70164.0;77.0;90.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2023;Elvis;Isaac Medeiros;Crime;80.0;PG-13;7,3;261536.0;64.0;77.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2023;The Fabelmans;Steven Spielberg;Drama;151.0;PG-13;7,5;134853.0;85.0;92.0;2;0;0.0;1.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+2023;Tár;Todd Field;Drama, Music;158.0;R;7,4;109657.0;93.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2022;Don't Look Up;Evan Marcewicz;Horror;138.0;R;7,1;659444.0;49.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2022;Nightmare Alley;Guillermo del Toro;Crime, Drama, Thriller;150.0;R;7;182647.0;70.0;80.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2022;The Power of the Dog;Jane Campion;Drama, Western;126.0;R;6,8;228441.0;89.0;94.0;5;0;1.0;1.0;0.0;1;1;1;0;0;0;0.0;0;0;0
+2022;Licorice Pizza;Paul Thomas Anderson;Comedy, Drama, Romance;133.0;R;7,1;161202.0;90.0;90.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2022;Drive My Car;Ryûsuke Hamaguchi;Drama;179.0;Not Rated;7,5;76804.0;90.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2022;CODA;Sian Heder;Comedy, Drama, Music;111.0;PG-13;8;213669.0;72.0;79.0;4;1;0.0;0.0;1.0;0;0;0;1;1;0;0.0;0;0;0
+2022;Belfast;Kenneth Branagh;Biography, Drama;98.0;PG-13;7,2;123715.0;75.0;86.0;2;0;0.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+2022;Dune;David Lynch;Action, Adventure, Sci-Fi;137.0;PG-13;8;1049633.0;74.0;76.0;3;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;1;1
+2022;King Richard;Reinaldo Marcus Green;Biography, Drama, Sport;144.0;PG-13;7,5;176528.0;76.0;90.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2022;West Side Story;Steven Spielberg;Crime, Drama, Musical;156.0;PG-13;7,1;128637.0;85.0;92.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2021;The Trial of the Chicago 7;Aaron Sorkin;Drama, History, Thriller;129.0;R;7,7;205408.0;76.0;89.0;1;0;0.0;0.0;0.0;0;0;0;0;0;1;0.0;0;0;0
+2021;Nomadland;Chloé Zhao;Drama;107.0;R;7,3;219259.0;87.0;93.0;8;1;1.0;1.0;1.0;1;1;1;0;0;0;0.0;0;0;1
+2021;Sound of Metal;Darius Marder;Drama, Music;120.0;R;7,7;186247.0;82.0;97.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;0;0
+2021;Mank;David Fincher;Biography, Drama;131.0;R;6,8;105010.0;79.0;83.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+2021;Promising Young Woman;Emerald Fennell;Crime, Drama, Mystery;113.0;R;7,5;255773.0;72.0;90.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2021;Judas and the Black Messiah;Shaka King;Biography, Crime, Drama;126.0;R;7,4;115285.0;84.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2021;The Father;Florian Zeller;Drama, Mystery;97.0;PG-13;8,2;245319.0;88.0;98.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2021;Minari;Lee Isaac Chung;Drama;115.0;PG-13;7,4;126059.0;89.0;87.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2020;1917;Sam Mendes;Action, Drama, War;119.0;TV-MA;8,2;771791.0;78.0;88.0;7;0;1.0;1.0;1.0;0;1;1;0;0;0;0.0;0;1;1
+2020;Jojo Rabbit;Taika Waititi;Comedy, Drama, War;108.0;PG-13;7,9;488442.0;58.0;81.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2020;Parasite;Bong Joon Ho;Comedy, Drama, Thriller;132.0;TV-MA;8,5;1164624.0;97.0;99.0;4;1;0.0;0.0;0.0;1;0;0;1;1;0;0.0;0;0;0
+2020;Ford v Ferrari;James Mangold;Action, Biography, Drama;152.0;PG-13;8,1;572005.0;81.0;77.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;0;0
+2020;The Irishman;Martin Scorsese;Biography, Crime, Drama;209.0;R;7,8;472931.0;94.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2020;Joker;Todd Phillips;Crime, Drama, Thriller;122.0;R;8,3;1694585.0;59.0;68.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2020;Little Women;Greta Gerwig;Drama, Romance;135.0;PG;7,8;284307.0;91.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2020;Marriage Story;Noah Baumbach;Comedy, Drama, Romance;137.0;R;7,9;372060.0;94.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2020;Once Upon a Time in Hollywood;Quentin Tarantino;Comedy, Drama;161.0;R;7,6;962553.0;84.0;85.0;2;0;0.0;1.0;0.0;0;0;0;0;0;1;0.0;0;0;0
+2019;Green Book;Peter Farrelly;Biography, Comedy, Drama;130.0;TV-PG;8,2;686512.0;69.0;77.0;5;1;0.0;1.0;1.0;0;0;0;1;0;1;0.0;0;0;0
+2019;The Favourite;Yorgos Lanthimos;Biography, Comedy, Drama;119.0;R;7,5;258830.0;91.0;93.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2019;Black Panther;Ryan Coogler;Action, Adventure, Sci-Fi;134.0;PG-13;7,3;909806.0;88.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2019;BlacKkKlansman;Spike Lee;Biography, Comedy, Crime;135.0;R;7,5;314613.0;83.0;96.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2019;Bohemian Rhapsody;Bryan Singer;Biography, Drama, Music;134.0;PG-13;7,9;646634.0;49.0;61.0;2;0;0.0;1.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+2019;Roma;Alfonso Cuarón;Drama;135.0;R;7,6;178576.0;96.0;96.0;6;0;1.0;0.0;0.0;1;1;1;0;0;0;0.0;0;1;1
+2019;A Star Is Born;Bradley Cooper;Drama, Music, Romance;136.0;R;7,6;449190.0;88.0;81.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2019;Vice;Adam McKay;Biography, Comedy, Drama;132.0;R;7,2;175159.0;61.0;67.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;1;0;0
+2018;Lady Bird;Greta Gerwig;Comedy, Drama;94.0;R;7,4;364066.0;93.0;99.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2018;The Shape of Water;Guillermo del Toro;Drama, Fantasy, Romance;123.0;R;7,3;476263.0;87.0;92.0;5;1;0.0;0.0;1.0;1;1;1;0;0;0;0.0;0;0;0
+2018;Darkest Hour;Joe Wright;Biography, Drama, History;125.0;PG-13;7,4;243460.0;75.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2018;Three Billboards Outside Ebbing, Missouri;Martin McDonagh;Comedy, Crime, Drama;115.0;R;8,1;607907.0;88.0;90.0;4;0;1.0;1.0;0.0;0;0;0;0;1;1;0.0;0;0;0
+2018;Phantom Thread;Paul Thomas Anderson;Drama, Romance;130.0;R;7,4;162260.0;90.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2018;Call Me by Your Name;Luca Guadagnino;Drama, Romance;132.0;R;7,8;359211.0;94.0;94.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2018;Dunkirk;Christopher Nolan;Action, Drama, History;106.0;PG-13;7,8;807763.0;94.0;92.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+2018;Get Out;Jordan Peele;Horror, Mystery, Thriller;104.0;R;7,8;817753.0;85.0;84.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2018;The Post;Steven Spielberg;Biography, Drama, History;116.0;PG-13;7,2;172033.0;83.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2017;Hell or High Water;David Mackenzie;Crime, Drama, Thriller;102.0;R;7,6;277821.0;88.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2017;Hacksaw Ridge;Mel Gibson;Biography, Drama, History;139.0;R;8,1;681670.0;71.0;84.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;0;0
+2017;Moonlight;Barry Jenkins;Drama;111.0;R;7,4;352382.0;99.0;90.0;3;1;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2017;Arrival;Denis Villeneuve;Drama, Mystery, Sci-Fi;116.0;PG-13;7,9;864102.0;81.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2017;Fences;Denzel Washington;Drama;139.0;PG-13;7,2;125476.0;79.0;92.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2017;Hidden Figures;Theodore Melfi;Biography, Drama, History;127.0;PG;7,8;289415.0;74.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2017;La La Land;Damien Chazelle;Comedy, Drama, Music;128.0;PG-13;8;763254.0;94.0;87.0;9;0;1.0;1.0;1.0;1;1;1;0;0;1;0.0;0;1;1
+2017;Lion;Garth Davis;Biography, Drama;118.0;PG-13;8;266657.0;69.0;73.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2017;Manchester by the Sea;Kenneth Lonergan;Drama;137.0;R;7,8;356896.0;96.0;96.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2016;Brooklyn;John Crowley;Drama, Romance;117.0;Not Rated;7,5;158631.0;87.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2016;The Martian;Ridley Scott;Adventure, Drama, Sci-Fi;144.0;PG-13;8;1013334.0;80.0;91.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2016;Room;Sikandar Sidhu;Thriller;91.0;R;4;11457.0;31.0;0.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2016;Spotlight;Tom McCarthy;Biography, Crime, Drama;129.0;R;8,1;535553.0;93.0;88.0;3;1;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2016;The Big Short;Adam McKay;Biography, Comedy, Drama;130.0;R;7,8;539835.0;81.0;78.0;3;0;0.0;0.0;1.0;0;0;0;1;1;0;0.0;0;0;0
+2016;Bridge of Spies;Steven Spielberg;Drama, History, Thriller;142.0;PG-13;7,6;344544.0;81.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2016;Mad Max: Fury Road;George Miller;Action, Adventure, Sci-Fi;120.0;R;8,1;1206685.0;90.0;86.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;0;0
+2016;The Revenant;Alejandro G. Iñárritu;Action, Drama, Western;156.0;R;8;950392.0;76.0;78.0;7;0;1.0;1.0;0.0;1;1;1;0;0;0;0.0;0;1;1
+2015;The Imitation Game;Morten Tyldum;Biography, Drama, Thriller;114.0;PG-13;8;878192.0;71.0;90.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2015;Birdman;Alejandro G. Inarritu;Comedy, Drama;119.0;R;7,7;699050.0;87.0;91.0;7;1;0.0;0.0;1.0;1;0;0;1;0;1;0.0;0;1;1
+2015;American Sniper;Clint Eastwood;Action, Biography, Drama;133.0;R;7,3;569956.0;73.0;71.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2015;Boyhood;Richard Linklater;Drama;165.0;R;7,9;381899.0;100.0;97.0;4;0;1.0;1.0;0.0;0;1;1;0;0;0;0.0;0;0;0
+2015;The Grand Budapest Hotel;Wes Anderson;Comedy, Drama;99.0;R;8,1;971793.0;88.0;92.0;3;0;0.0;1.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2015;Selma;Ava DuVernay;Biography, Drama, History;128.0;PG-13;7,5;99216.0;79.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2015;The Theory of Everything;James Marsh;Biography, Drama, Romance;123.0;PG-13;7,7;507938.0;71.0;80.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2015;Whiplash;Damien Chazelle;Drama, Music;106.0;R;8,5;1155540.0;89.0;94.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;0;0
+2014;Her;Juan Carlos Borrero, Melodie Carli;Documentary;105.0;PG-13;5;7259.0;15.0;8.0;2;0;0.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+2014;The Wolf of Wall Street;Martin Scorsese;Biography, Comedy, Crime;180.0;R;8,2;1788957.0;75.0;79.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2014;12 Years a Slave;Steve McQueen;Biography, Drama, History;134.0;R;8,1;787053.0;96.0;95.0;5;1;1.0;1.0;1.0;0;0;0;1;0;0;0.0;0;0;0
+2014;American Hustle;David O. Russell;Crime, Drama;138.0;R;7,2;519010.0;90.0;82.0;2;0;0.0;1.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2014;Captain Phillips;Paul Greengrass;Action, Biography, Crime;134.0;PG-13;7,8;519351.0;82.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2014;Dallas Buyers Club;Jean-Marc Vallée;Biography, Drama;117.0;R;7,9;548706.0;77.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2014;Gravity;Alfonso Cuarón;Drama, Sci-Fi, Thriller;91.0;PG-13;7,7;900352.0;96.0;90.0;7;0;0.0;0.0;1.0;1;1;1;0;0;0;1.0;0;1;1
+2014;Nebraska;Alexander Payne;Drama;115.0;R;7,7;128649.0;86.0;80.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2014;Philomena;Stephen Frears;Biography, Comedy, Drama;98.0;PG-13;7,6;107320.0;77.0;91.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2013;Argo;Ben Affleck;Biography, Drama, History;120.0;R;7,7;666998.0;86.0;96.0;9;1;1.0;1.0;1.0;0;1;1;1;0;0;1.0;1;0;0
+2013;Beasts of the Southern Wild;Benh Zeitlin;Adventure, Drama, Fantasy;93.0;PG-13;7,2;86834.0;86.0;87.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2013;Silver Linings Playbook;David O. Russell;Comedy, Drama, Romance;122.0;R;7,7;773568.0;81.0;92.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+2013;Lincoln;Steven Spielberg;Biography, Drama, History;150.0;Unrated;7,3;284758.0;86.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2013;Les Misérables;Tom Hooper;Drama, Musical, Romance;158.0;Not Rated;7,5;362369.0;63.0;70.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2013;Amour;Michael Haneke;Drama;127.0;PG-13;7,9;110624.0;95.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2013;Django Unchained;Quentin Tarantino;Drama, Western;165.0;R;8,5;1883738.0;81.0;87.0;3;0;0.0;0.0;0.0;0;0;0;1;1;1;0.0;0;0;0
+2013;Life of Pi;Ang Lee;Adventure, Drama, Fantasy;127.0;PG;7,9;700497.0;79.0;86.0;3;0;0.0;0.0;0.0;1;0;0;0;0;0;0.0;0;1;1
+2013;Zero Dark Thirty;Kathryn Bigelow;Drama, History, Thriller;157.0;R;7,4;341569.0;95.0;86.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2012;The Descendants;Alexander Payne;Comedy, Drama;115.0;R;7,3;259923.0;84.0;88.0;2;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2012;Extremely Loud & Incredibly Close;Stephen Daldry;Adventure, Drama, Mystery;129.0;PG-13;6,9;107896.0;46.0;44.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2012;Midnight in Paris;Woody Allen;Comedy, Fantasy, Romance;94.0;PG-13;7,6;471329.0;81.0;93.0;2;0;0.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+2012;The Artist;Michel Hazanavicius;Comedy, Drama, Romance;100.0;PG-13;7,8;255499.0;89.0;88.0;8;1;1.0;1.0;1.0;1;1;0;0;1;0;0.0;0;0;1
+2012;The Help;Tate Taylor;Drama;146.0;PG-13;8,1;528645.0;62.0;70.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2012;Hugo;Martin Scorsese;Adventure, Drama, Family;126.0;PG;7,5;349454.0;83.0;93.0;2;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;1;0
+2012;Moneyball;Bennett Miller;Biography, Drama, Sport;133.0;PG-13;7,6;509192.0;87.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2012;The Tree of Life;Terrence Malick;Drama, Fantasy;139.0;PG-13;6,8;192362.0;85.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2012;War Horse;Steven Spielberg;Adventure, Drama, History;146.0;PG-13;7,2;173197.0;72.0;74.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;127 Hours;Danny Boyle;Biography, Drama;94.0;R;7,5;424692.0;82.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;Winter's Bone;Debra Granik;Crime, Drama, Mystery;100.0;R;7,1;157927.0;90.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;Toy Story 3;Lee Unkrich;Adventure, Animation, Comedy;103.0;G;8,3;970165.0;92.0;98.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;The Kids Are All Right;Lisa Cholodenko;Comedy, Drama, Romance;106.0;R;7;137440.0;86.0;93.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;The King's Speech;Tom Hooper;Biography, Drama, History;118.0;R;8;733140.0;88.0;94.0;6;1;1.0;0.0;1.0;1;0;0;1;1;0;0.0;0;0;0
+2011;Black Swan;Darren Aronofsky;Drama, Thriller;108.0;R;8;889390.0;79.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;The Fighter;David O. Russell;Action, Biography, Drama;116.0;R;7,8;408117.0;79.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2011;Inception;Christopher Nolan;Action, Adventure, Sci-Fi;148.0;PG-13;8,8;2818462.0;74.0;87.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+2011;The Social Network;David Fincher;Biography, Drama;120.0;PG-13;7,8;819887.0;95.0;96.0;8;0;0.0;1.0;0.0;0;1;1;1;1;1;1.0;1;0;0
+2011;True Grit;Ethan Coen, Joel Coen;Drama, Western;110.0;PG-13;7,6;376468.0;80.0;95.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;1
+2010;A Serious Man;Ethan Coen, Joel Coen;Comedy, Drama;106.0;R;7;158585.0;88.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2010;The Blind Side;John Lee Hancock;Biography, Drama, Sport;129.0;PG-13;7,6;387267.0;53.0;66.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2010;An Education;Lone Scherfig;Drama;100.0;PG-13;7,2;141167.0;85.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2010;District 9;Neill Blomkamp;Action, Sci-Fi, Thriller;112.0;R;7,9;752771.0;81.0;90.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2010;Up;Pete Docter, Bob Peterson;Adventure, Animation, Comedy;96.0;PG-13;8,3;1236565.0;45.0;47.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2010;The Hurt Locker;Kathryn Bigelow;Drama, Thriller, War;131.0;R;7,5;496747.0;95.0;97.0;10;1;1.0;0.0;1.0;1;1;0;1;1;0;1.0;1;0;1
+2010;Avatar;James Cameron;Action, Adventure, Fantasy;162.0;PG-13;7,9;1498360.0;83.0;81.0;3;0;0.0;1.0;0.0;0;0;1;0;0;0;0.0;0;1;0
+2010;Inglourious Basterds;Quentin Tarantino;Adventure, Drama, War;153.0;R;8,4;1784205.0;69.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2010;"Precious: Based on the Novel ""Push"" by Sapphire";Lee Daniels;Drama;110.0;R;7,3;121178.0;79.0;91.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2010;Up in the Air;Jason Reitman;Comedy, Drama, Romance;109.0;Not Rated;7,4;360873.0;83.0;90.0;2;0;0.0;0.0;0.0;0;0;0;0;1;1;0.0;0;0;0
+2009;The Curious Case of Benjamin Button;David Fincher;Drama, Fantasy, Romance;166.0;PG-13;7,8;745989.0;70.0;72.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2009;The Reader;Stephen Daldry;Drama, Mystery, Romance;124.0;R;7,6;273976.0;58.0;63.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2009;Slumdog Millionaire;Danny Boyle, Loveleen Tandan;Crime, Drama, Romance;120.0;R;8;910511.0;84.0;92.0;14;1;1.0;1.0;1.0;1;1;1;1;1;1;1.0;1;1;1
+2009;Frost/Nixon;Ron Howard;Biography, Drama, History;122.0;R;7,6;115995.0;80.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2009;Milk;Gus Van Sant;Biography, Drama;128.0;R;7,5;186112.0;83.0;93.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2008;There Will Be Blood;Paul Thomas Anderson;Drama;158.0;R;8,2;708926.0;93.0;91.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+2008;Michael Clayton;Tony Gilroy;Crime, Drama, Mystery;119.0;R;7,2;184021.0;82.0;90.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2008;No Country for Old Men;Ethan Coen, Joel Coen;Crime, Drama, Thriller;122.0;R;8,2;1190697.0;92.0;93.0;7;1;0.0;0.0;1.0;1;1;0;1;0;1;0.0;0;0;1
+2008;Atonement;Joe Wright;Drama, Mystery, Romance;123.0;R;7,8;329268.0;85.0;83.0;2;0;1.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2008;Juno;Jason Reitman;Comedy, Drama;96.0;PG-13;7,4;572587.0;81.0;93.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+2007;Little Miss Sunshine;Jonathan Dayton, Valerie Faris;Comedy, Drama;101.0;R;7,8;558610.0;80.0;91.0;3;0;0.0;0.0;1.0;0;0;0;1;1;0;0.0;0;0;0
+2007;The Departed;Martin Scorsese;Crime, Drama, Thriller;151.0;R;8,5;1554866.0;85.0;91.0;5;1;0.0;0.0;0.0;1;0;1;1;0;0;1.0;0;0;0
+2007;Babel;Alejandro G. Iñárritu;Drama;143.0;R;7,4;329247.0;69.0;68.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2007;Letters from Iwo Jima;Clint Eastwood;Action, Adventure, Drama;141.0;R;7,8;177158.0;89.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2007;The Queen;Stephen Frears;Biography, Drama;103.0;PG-13;7,3;119808.0;90.0;97.0;2;0;1.0;0.0;0.0;0;0;0;0;0;1;0.0;0;0;0
+2006;Brokeback Mountain;Ang Lee;Drama, Romance;134.0;R;7,7;417259.0;87.0;88.0;9;0;1.0;1.0;1.0;1;1;1;1;1;1;0.0;0;0;0
+2006;Good Night, and Good Luck;George Clooney;Biography, Drama, History;93.0;PG;7,4;105268.0;80.0;93.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2006;Munich;Steven Spielberg;Drama, History, Thriller;164.0;R;7,5;253603.0;74.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2006;Crash;Paul Haggis;Crime, Drama, Thriller;112.0;R;7,7;463000.0;66.0;73.0;4;1;0.0;0.0;0.0;0;0;0;1;1;0;1.0;0;0;0
+2006;Capote;Bennett Miller;Biography, Crime, Drama;114.0;R;7,3;149413.0;88.0;82.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2005;Million Dollar Baby;Clint Eastwood;Drama, Sport;132.0;PG-13;8,1;766358.0;86.0;90.0;3;1;0.0;0.0;0.0;1;0;1;0;0;0;0.0;0;0;0
+2005;Ray;Taylor Hackford;Biography, Drama, Music;152.0;PG-13;7,7;165860.0;73.0;80.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2005;The Aviator;Martin Scorsese;Biography, Drama;170.0;PG-13;7,5;408827.0;77.0;86.0;5;0;1.0;1.0;1.0;0;0;0;0;0;0;1.0;0;1;0
+2005;Finding Neverland;Marc Forster;Biography, Drama, Family;106.0;PG;7,6;217352.0;67.0;75.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2005;Sideways;Alexander Payne;Comedy, Drama, Romance;127.0;R;7,5;217086.0;94.0;86.0;4;0;0.0;1.0;0.0;0;0;0;1;1;1;0.0;0;0;0
+2004;Seabiscuit;Gary Ross;Drama, History, Sport;140.0;PG-13;7,3;80199.0;72.0;77.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2004;The Lord of the Rings: The Return of the King;Peter Jackson;Adventure, Drama, Fantasy;201.0;PG-13;9;2165634.0;94.0;94.0;10;1;1.0;1.0;1.0;1;0;1;1;1;0;1.0;0;0;1
+2004;Lost in Translation;Sofia Coppola;Comedy, Drama;102.0;R;7,7;530365.0;91.0;95.0;4;0;0.0;1.0;0.0;0;0;0;1;0;1;0.0;1;0;0
+2004;Master and Commander: The Far Side of the World;Peter Weir;Action, Adventure, Drama;138.0;PG-13;7,5;255984.0;81.0;76.0;2;0;0.0;0.0;0.0;0;1;0;0;0;0;0.0;0;1;0
+2004;Mystic River;Clint Eastwood;Crime, Drama, Mystery;138.0;R;7,9;523362.0;84.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2003;The Lord of the Rings: The Two Towers;Peter Jackson;Adventure, Drama, Fantasy;179.0;PG-13;8,8;1958262.0;87.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2003;Chicago;Rob Marshall;Comedy, Crime, Musical;113.0;TV-PG;7,2;256735.0;82.0;86.0;4;1;0.0;1.0;1.0;0;0;0;0;0;0;1.0;0;0;0
+2003;The Hours;Stephen Daldry;Drama, Romance;114.0;PG-13;7,5;147159.0;80.0;79.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2003;Gangs of New York;Martin Scorsese;Crime, Drama;167.0;R;7,5;505835.0;72.0;72.0;1;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+2003;The Pianist;Roman Polanski;Biography, Drama, Music;150.0;R;8,5;1012916.0;85.0;95.0;4;0;1.0;0.0;0.0;1;1;0;1;0;0;0.0;0;0;0
+2002;Moulin Rouge!;Baz Luhrmann;Drama, Musical, Romance;127.0;PG-13;7,5;314590.0;66.0;75.0;2;0;0.0;1.0;1.0;0;0;0;0;0;0;0.0;0;0;0
+2002;The Lord of the Rings: The Fellowship of the Ring;Peter Jackson;Adventure, Drama, Fantasy;178.0;PG-13;8,9;2207668.0;92.0;91.0;2;0;1.0;0.0;0.0;0;1;0;0;0;0;0.0;0;0;0
+2002;In the Bedroom;Todd Field;Crime, Drama;131.0;R;7,4;44506.0;86.0;93.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+2002;A Beautiful Mind;Ron Howard;Biography, Drama, Mystery;135.0;PG-13;8,2;1053785.0;72.0;74.0;5;1;0.0;1.0;0.0;1;0;0;1;0;1;0.0;0;0;0
+2002;Gosford Park;Robert Altman;Comedy, Drama, Mystery;137.0;R;7,2;102381.0;90.0;87.0;2;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;1;0
+2001;Crouching Tiger, Hidden Dragon;Ang Lee;Action, Adventure, Drama;120.0;PG-13;7,9;295061.0;94.0;97.0;2;0;0.0;0.0;0.0;0;1;1;0;0;0;0.0;0;0;0
+2001;Chocolat;Lasse Hallström;Drama, Romance;121.0;G;7,2;210457.0;64.0;63.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2001;Gladiator;Ridley Scott;Action, Adventure, Drama;155.0;Not Rated;8,5;1850769.0;67.0;80.0;5;1;1.0;1.0;1.0;0;0;0;0;0;0;0.0;1;0;0
+2001;Erin Brockovich;Steven Soderbergh;Biography, Drama;131.0;R;7,5;246420.0;73.0;85.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+2001;Traffic;Steven Soderbergh;Crime, Drama, Thriller;147.0;Not Rated;7,5;230570.0;86.0;93.0;5;0;0.0;0.0;0.0;1;0;0;1;1;1;1.0;0;0;0
+2000;The Green Mile;Frank Darabont;Crime, Drama, Fantasy;189.0;R;8,6;1562272.0;61.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2000;The Cider House Rules;Lasse Hallström;Drama, Romance;126.0;PG-13;7,4;109561.0;75.0;72.0;3;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;1;1
+2000;American Beauty;Sam Mendes;Drama;122.0;R;8,3;1280233.0;84.0;87.0;9;1;1.0;1.0;1.0;1;0;1;1;0;1;0.0;1;0;0
+2000;The Insider;Michael Mann;Biography, Drama, History;157.0;R;7,8;192643.0;85.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+2000;The Sixth Sense;M. Night Shyamalan;Drama, Mystery, Thriller;107.0;PG-13;8,2;1145406.0;64.0;86.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1999;Life Is Beautiful;Sabu Aloysius, Arunkumar M;Drama;117.0;PG-13;8,6;806401.0;58.0;80.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;1
+1999;Elizabeth;Shekhar Kapur;Biography, Drama, History;124.0;TV-G;7,4;110279.0;66.0;82.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1999;The Thin Red Line;Terrence Malick;Drama, History, War;170.0;R;7,6;213169.0;78.0;80.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1999;Shakespeare in Love;John Madden;Comedy, Drama, History;123.0;R;7,1;243169.0;87.0;83.0;6;1;1.0;1.0;0.0;0;0;0;1;0;1;0.0;1;0;0
+1999;Saving Private Ryan;Steven Spielberg;Drama, War;169.0;R;8,6;1639843.0;91.0;94.0;5;0;0.0;1.0;1.0;1;0;1;0;0;0;1.0;0;0;0
+1998;Good Will Hunting;Gus Van Sant;Drama, Romance;126.0;R;8,4;1217819.0;71.0;97.0;2;0;0.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1998;Titanic;James Cameron;Drama, Romance;194.0;PG-13;8;1393051.0;73.0;83.0;6;1;0.0;1.0;1.0;1;0;1;0;0;0;1.0;0;0;0
+1998;As Good as It Gets;James L. Brooks;Comedy, Drama, Romance;139.0;PG-13;7,7;338927.0;67.0;86.0;2;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1998;The Full Monty;Peter Cattaneo;Comedy, Drama;91.0;R;7,2;119930.0;75.0;96.0;1;0;1.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1998;L.A. Confidential;Curtis Hanson;Crime, Drama, Mystery;138.0;R;8,2;659610.0;91.0;99.0;2;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;1;0;0
+1997;The English Patient;Anthony Minghella;Drama, Romance, War;162.0;R;7,4;213714.0;86.0;86.0;8;1;1.0;1.0;1.0;1;0;0;0;1;0;1.0;1;0;0
+1997;Jerry Maguire;Cameron Crowe;Comedy, Drama, Romance;139.0;R;7,3;311811.0;77.0;84.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1997;Fargo;Joel Coen, Ethan Coen;Crime, Drama, Thriller;98.0;R;8,1;788142.0;88.0;94.0;4;0;0.0;0.0;0.0;0;1;0;1;0;0;0.0;0;1;1
+1997;Secrets & Lies;Mike Leigh;Comedy, Drama;136.0;R;8;51526.0;92.0;86.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+1997;Shine;Scott Hicks;Biography, Drama, Music;105.0;PG-13;7,6;59045.0;87.0;80.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1996;Sense and Sensibility;Ang Lee;Drama, Romance;136.0;PG;7,7;137556.0;84.0;97.0;4;0;1.0;1.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1996;Babe;Chris Noonan;Comedy, Drama, Family;91.0;Not Rated;6,9;142300.0;83.0;97.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1996;Braveheart;Mel Gibson;Biography, Drama, War;178.0;R;8,3;1161518.0;68.0;76.0;3;1;0.0;0.0;0.0;1;0;1;0;0;0;0.0;0;0;0
+1996;Apollo 13;Ron Howard;Adventure, Drama, History;140.0;PG;7,7;338542.0;78.0;96.0;4;0;0.0;0.0;1.0;0;0;0;0;0;0;1.0;0;1;1
+1996;Il Postino: The Postman;Michael Radford;Comedy, Drama, Romance;108.0;PG;7,8;41502.0;81.0;94.0;1;0;0.0;0.0;0.0;0;1;0;0;0;0;0.0;0;0;0
+1995;The Shawshank Redemption;Frank Darabont;Drama;142.0;R;9,3;3190089.0;82.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1995;Four Weddings and a Funeral;Mike Newell;Comedy, Drama, Romance;117.0;R;7,1;182223.0;81.0;92.0;2;0;1.0;0.0;0.0;0;1;0;0;0;0;0.0;0;0;0
+1995;Pulp Fiction;Quentin Tarantino;Crime, Drama;154.0;R;8,8;2436317.0;95.0;92.0;3;0;0.0;0.0;0.0;0;0;0;1;1;1;0.0;0;0;0
+1995;Quiz Show;Robert Redford;Biography, Drama, History;133.0;PG-13;7,5;77834.0;92.0;97.0;1;0;0.0;0.0;0.0;0;0;0;0;1;0;0.0;0;0;0
+1995;Forrest Gump;Robert Zemeckis;Drama, Romance;142.0;PG-13;8,8;2497865.0;82.0;75.0;7;1;0.0;1.0;1.0;1;0;1;1;0;0;1.0;0;0;0
+1994;The Fugitive;Andrew Davis;Action, Crime, Drama;130.0;PG-13;7,8;346738.0;87.0;96.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;1
+1994;The Remains of the Day;James Ivory;Drama, Romance;134.0;PG;7,8;92989.0;86.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1994;In the Name of the Father;Jim Sheridan;Biography, Crime, Drama;133.0;R;8,1;202831.0;84.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1994;Schindler's List;Steven Spielberg;Biography, Drama, History;195.0;R;9;1586314.0;95.0;98.0;12;1;1.0;1.0;1.0;1;1;1;1;1;1;1.0;1;0;0
+1994;The Piano;Jane Campion;Drama, Music, Romance;121.0;R;7,5;101343.0;89.0;90.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1993;Unforgiven;Clint Eastwood;Drama, Western;130.0;R;8,2;469207.0;85.0;96.0;4;1;0.0;0.0;0.0;1;0;1;0;0;0;1.0;0;0;0
+1993;Howards End;James Ivory;Drama, Romance;142.0;PG;7,3;38710.0;88.0;94.0;3;0;1.0;0.0;0.0;0;1;0;1;0;0;0.0;0;0;0
+1993;Scent of a Woman;Martin Brest;Drama;156.0;R;8;371913.0;57.0;82.0;3;0;0.0;1.0;0.0;0;0;1;0;0;1;0.0;0;0;0
+1993;The Crying Game;Neil Jordan;Crime, Drama, Romance;112.0;R;7,2;63541.0;90.0;95.0;2;0;0.0;0.0;1.0;0;0;0;1;0;0;0.0;0;0;0
+1993;A Few Good Men;Rob Reiner;Drama, Thriller;138.0;R;7,7;317650.0;62.0;84.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1992;The Prince of Tides;Barbra Streisand;Drama, Romance;132.0;R;6,8;21434.0;65.0;69.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;1
+1992;Bugsy;Barry Levinson;Biography, Crime, Drama;136.0;R;6,8;33482.0;80.0;84.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1992;The Silence of the Lambs;Jonathan Demme;Crime, Drama, Horror;118.0;R;8,6;1724259.0;86.0;95.0;4;1;0.0;0.0;1.0;1;0;0;1;0;0;0.0;0;0;0
+1992;JFK;Oliver Stone;Drama, History, Thriller;189.0;R;8;182362.0;72.0;84.0;3;0;0.0;0.0;0.0;0;0;1;0;0;0;1.0;1;0;0
+1992;Beauty and the Beast;Gary Trousdale, Kirk Wise;Animation, Family, Fantasy;84.0;G;8;505626.0;95.0;95.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1991;The Godfather Part III;Francis Ford Coppola;Crime, Drama;162.0;R;7,5;455911.0;60.0;66.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1991;Ghost;Jerry Zucker;Drama, Fantasy, Romance;126.0;Unrated;7,1;256837.0;52.0;74.0;2;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;1;0;0
+1991;Dances with Wolves;Kevin Costner;Adventure, Drama, Western;181.0;PG-13;8;310464.0;72.0;87.0;8;1;0.0;1.0;1.0;1;0;1;1;0;1;1.0;0;0;0
+1991;Goodfellas;Martin Scorsese;Biography, Crime, Drama;145.0;R;8,7;1392413.0;92.0;93.0;3;0;1.0;0.0;0.0;0;1;0;0;1;0;0.0;0;0;0
+1991;Awakenings;Penny Marshall;Biography, Drama;121.0;PG-13;7,8;176965.0;74.0;81.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1990;Driving Miss Daisy;Bruce Beresford;Comedy, Drama;99.0;0;7,3;124535.0;81.0;85.0;4;1;0.0;1.0;1.0;0;0;0;1;0;0;0.0;0;0;0
+1990;My Left Foot;Jim Sheridan;Biography, Drama;103.0;R;7,8;85180.0;97.0;98.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1990;Born on the Fourth of July;Oliver Stone;Biography, Drama, War;145.0;R;7,2;124500.0;75.0;84.0;5;0;0.0;1.0;0.0;1;0;1;0;0;1;1.0;0;0;0
+1990;Dead Poets Society;Peter Weir;Comedy, Drama;128.0;PG;8,1;653256.0;79.0;85.0;3;0;1.0;0.0;0.0;0;1;0;1;0;0;0.0;0;0;0
+1990;Field of Dreams;Phil Alden Robinson;Drama, Family, Fantasy;107.0;PG;7,5;139221.0;57.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1989;Mississippi Burning;Alan Parker;Crime, Drama, Mystery;128.0;R;7,8;127973.0;65.0;79.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1989;Rain Man;Barry Levinson;Drama;133.0;R;8;585975.0;65.0;88.0;4;1;0.0;1.0;0.0;1;0;0;1;0;0;0.0;0;0;0
+1989;The Accidental Tourist;Lawrence Kasdan;Comedy, Drama, Romance;121.0;PG;6,7;18543.0;52.0;82.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;1;0;0
+1989;Working Girl;Mike Nichols;Comedy, Drama, Romance;113.0;R;6,8;67934.0;73.0;83.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1989;Dangerous Liaisons;Stephen Frears;Drama, Romance;119.0;R;7,5;80071.0;74.0;91.0;2;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+1988;Fatal Attraction;Adrian Lyne;Drama, Thriller;119.0;R;6,9;111484.0;67.0;74.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;1;0;0
+1988;The Last Emperor;Bernardo Bertolucci;Biography, Drama, History;163.0;PG-13;7,7;119682.0;76.0;86.0;7;1;0.0;1.0;0.0;1;0;1;1;0;1;1.0;0;0;0
+1988;Broadcast News;James L. Brooks;Comedy, Drama, Romance;133.0;R;7,3;36895.0;84.0;98.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1988;Hope and Glory;John Boorman;Comedy, Drama, Romance;113.0;PG-13;7,3;15926.0;86.0;96.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1988;Moonstruck;Norman Jewison;Comedy, Drama, Romance;102.0;PG;7,2;79140.0;83.0;90.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1987;A Room with a View;James Ivory;Drama, Romance;117.0;Not Rated;7,2;52414.0;83.0;100.0;4;0;1.0;0.0;0.0;0;0;0;1;0;0;0.0;0;1;1
+1987;Platoon;Oliver Stone;Drama, War;120.0;R;8,1;472967.0;92.0;89.0;7;1;0.0;1.0;0.0;1;1;1;0;0;0;1.0;1;0;0
+1987;Children of a Lesser God;Randa Haines;Drama, Romance;119.0;R;7,2;20063.0;80.0;81.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1987;The Mission;Roland Joffé;Adventure, Drama, History;125.0;PG;7,4;70941.0;55.0;63.0;1;0;0.0;0.0;0.0;0;0;0;0;0;1;0.0;0;0;0
+1987;Hannah and Her Sisters;Woody Allen;Comedy, Drama;107.0;PG-13;7,8;81597.0;90.0;92.0;3;0;0.0;1.0;0.0;0;0;0;1;1;0;0.0;0;0;0
+1986;Kiss of the Spider Woman;Hector Babenco;Drama;120.0;R;7,3;19391.0;80.0;87.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1986;Prizzi's Honor;John Huston;Comedy, Crime, Drama;130.0;R;6,7;28638.0;84.0;85.0;3;0;0.0;1.0;0.0;0;0;1;0;1;0;0.0;0;0;0
+1986;The Color Purple;Steven Spielberg;Drama;154.0;PG-13;7,7;104230.0;78.0;73.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;1
+1986;Out of Africa;Sydney Pollack;Biography, Drama, Romance;161.0;PG;7,2;93124.0;69.0;62.0;5;1;0.0;1.0;0.0;1;0;0;1;1;0;0.0;0;0;0
+1986;Witness;Peter Weir;Crime, Drama, Romance;112.0;R;7,3;114042.0;76.0;94.0;2;0;0.0;0.0;0.0;0;0;0;1;0;0;1.0;0;0;0
+1985;A Passage to India;David Lean;Adventure, Drama, History;164.0;PG;7,3;23171.0;78.0;77.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1985;Amadeus;Miloš Forman;Biography, Drama, Music;160.0;PG;8,4;468341.0;87.0;93.0;7;1;0.0;1.0;0.0;1;0;1;1;0;1;0.0;1;0;0
+1985;A Soldier's Story;Norman Jewison;Crime, Drama, Mystery;101.0;PG;7,2;12553.0;66.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1985;Places in the Heart;Robert Benton;Drama;111.0;PG;7,4;15538.0;70.0;90.0;2;0;0.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1985;The Killing Fields;Roland Joffé;Biography, Drama, History;141.0;R;7,8;63731.0;76.0;91.0;5;0;1.0;0.0;0.0;0;0;0;0;1;0;1.0;1;0;1
+1984;Tender Mercies;Bruce Beresford;Drama, Music;92.0;PG;7,3;14418.0;76.0;82.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1984;Terms of Endearment;James L. Brooks;Comedy, Drama;132.0;PG;7,4;70647.0;79.0;81.0;5;1;0.0;1.0;0.0;1;0;0;1;0;1;0.0;0;0;0
+1984;The Big Chill;Lawrence Kasdan;Comedy, Drama;105.0;R;7,1;45560.0;61.0;69.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1984;The Dresser;Peter Yates;Drama;118.0;PG;7,4;6374.0;80.0;100.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1984;The Right Stuff;Philip Kaufman;Adventure, Biography, Drama;193.0;PG;7,8;69196.0;91.0;96.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+1983;Missing;Costa-Gavras;Biography, Drama, History;122.0;Not Rated;7,7;25687.0;75.0;94.0;3;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;1;1;0
+1983;Gandhi;Richard Attenborough;Biography, Drama, History;191.0;PG;8;247421.0;79.0;89.0;8;1;1.0;0.0;0.0;1;1;1;1;0;1;1.0;0;0;0
+1983;The Verdict;Sidney Lumet;Drama;129.0;R;7,7;50698.0;77.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1983;E.T. the Extra-Terrestrial;Steven Spielberg;Adventure, Family, Sci-Fi;115.0;PG;7,9;472148.0;92.0;99.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1983;Tootsie;Sydney Pollack;Comedy, Drama, Romance;116.0;PG;7,4;122423.0;88.0;91.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1982;Chariots of Fire;Hugh Hudson;Biography, Drama, Sport;125.0;PG;7,1;71054.0;78.0;84.0;3;1;1.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1982;Atlantic City;Louis Malle;Crime, Drama, Romance;104.0;R;7,3;19739.0;85.0;100.0;1;0;0.0;0.0;0.0;0;1;0;0;0;0;0.0;0;0;0
+1982;On Golden Pond;Mark Rydell;Drama;109.0;PG;7,6;37731.0;68.0;91.0;4;0;0.0;1.0;0.0;0;0;0;1;0;1;1.0;0;0;0
+1982;Raiders of the Lost Ark;Steven Spielberg;Action, Adventure;115.0;PG;8,4;1110755.0;86.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1982;Reds;Warren Beatty;Biography, Drama, History;195.0;PG;7,3;26821.0;76.0;90.0;2;0;0.0;0.0;0.0;1;0;1;0;0;0;0.0;0;0;0
+1981;The Elephant Man;David Lynch;Biography, Drama;124.0;PG;8,2;282641.0;78.0;91.0;1;0;1.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1981;Raging Bull;Martin Scorsese;Biography, Drama, Sport;129.0;R;8,1;411337.0;90.0;92.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;0;0
+1981;Coal Miner's Daughter;Michael Apted;Biography, Drama, Music;124.0;PG;7,5;22272.0;84.0;84.0;2;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1981;Ordinary People;Robert Redford;Drama;124.0;R;7,7;62026.0;86.0;90.0;5;1;0.0;1.0;0.0;1;0;1;1;0;0;0.0;0;0;0
+1981;Tess;Roman Polanski;Drama, Romance;186.0;PG;7,3;19904.0;82.0;81.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1980;All That Jazz;Bob Fosse;Drama, Music, Musical;123.0;R;7,8;40534.0;72.0;88.0;4;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;1;1;1
+1980;Apocalypse Now;Francis Ford Coppola;Drama, Mystery, War;147.0;R;8,4;770566.0;94.0;91.0;1;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+1980;Norma Rae;Martin Ritt;Drama;114.0;PG;7,3;14052.0;61.0;91.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1980;Breaking Away;Peter Yates;Comedy, Drama, Sport;101.0;PG;7,7;27581.0;78.0;94.0;3;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;1
+1980;Kramer vs. Kramer;Robert Benton;Drama;105.0;PG;7,8;166505.0;77.0;81.0;5;1;0.0;1.0;0.0;1;0;0;1;0;1;0.0;0;0;0
+1979;Midnight Express;Alan Parker;Biography, Crime, Drama;121.0;R;7,5;94756.0;59.0;90.0;5;0;0.0;1.0;0.0;0;1;0;1;0;1;0.0;1;0;0
+1979;Coming Home;Hal Ashby;Drama, Romance, War;127.0;R;7,3;16002.0;61.0;83.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1979;The Deer Hunter;Michael Cimino;Drama, War;183.0;R;8,1;387196.0;90.0;86.0;5;1;0.0;0.0;0.0;1;0;1;0;0;0;1.0;1;0;0
+1979;An Unmarried Woman;Paul Mazursky;Comedy, Drama, Romance;124.0;R;7,2;6802.0;79.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1979;Heaven Can Wait;Warren Beatty, Buck Henry;Comedy, Fantasy, Romance;101.0;PG;6,9;25715.0;72.0;84.0;2;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;1
+1978;Star Wars;George Lucas;Action, Adventure, Fantasy;121.0;TV-PG;8,6;1571217.0;90.0;93.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+1978;The Goodbye Girl;Herbert Ross;Comedy, Drama, Romance;111.0;PG;7,4;17676.0;64.0;77.0;2;0;0.0;1.0;0.0;0;0;0;0;0;1;0.0;0;0;0
+1978;The Turning Point;Herbert Ross;Action;119.0;PG;6,8;5292.0;68.0;63.0;3;0;0.0;1.0;0.0;0;0;1;0;0;0;0.0;0;0;1
+1978;Annie Hall;Woody Allen;Comedy, Romance;93.0;PG;7,9;291287.0;92.0;97.0;7;1;1.0;0.0;0.0;1;1;0;1;1;0;0.0;1;0;0
+1978;Julia;Fred Zinnemann;Drama;117.0;PG-13;7;11417.0;0.0;73.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1977;All the President's Men;Alan J. Pakula;Drama, History, Thriller;138.0;PG;7,9;138872.0;84.0;94.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1977;Bound for Glory;Hal Ashby;Biography, Drama, Music;147.0;PG;7,2;6036.0;70.0;81.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1977;Rocky;John G. Avildsen;Drama, Sport;120.0;PG;8,1;689022.0;70.0;91.0;4;1;0.0;1.0;0.0;1;0;0;0;0;0;1.0;0;0;0
+1977;Network;Sidney Lumet;Drama;121.0;R;8,1;186970.0;83.0;90.0;3;0;0.0;0.0;0.0;0;0;1;1;0;1;0.0;0;0;0
+1977;Taxi Driver;Martin Scorsese;Crime, Drama;114.0;R;8,2;1027043.0;94.0;89.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1976;One Flew Over the Cuckoo's Nest;Miloš Forman;Drama;133.0;R;8,6;1157697.0;84.0;93.0;9;1;1.0;1.0;0.0;1;1;1;1;0;1;0.0;1;0;0
+1976;Nashville;Robert Altman;Comedy, Drama, Music;160.0;R;7,6;31491.0;86.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1976;Dog Day Afternoon;Sidney Lumet;Biography, Crime, Drama;125.0;R;8;292866.0;86.0;96.0;2;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;1;0;0
+1976;Barry Lyndon;Stanley Kubrick;Adventure, Drama, War;185.0;PG;8,1;204968.0;89.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1976;Jaws;Steven Spielberg;Adventure, Drama, Horror;124.0;PG;8,1;737828.0;87.0;97.0;3;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;1;1
+1975;Lenny;Bob Fosse;Biography, Drama;111.0;R;7,5;19404.0;61.0;87.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1975;The Godfather Part II;Francis Ford Coppola;Crime, Drama;202.0;R;9;1496035.0;90.0;96.0;3;1;0.0;0.0;0.0;1;0;0;1;0;0;0.0;0;0;0
+1975;The Conversation;Francis Ford Coppola;Drama, Mystery, Thriller;113.0;PG;7,7;137143.0;88.0;94.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;1;0;0
+1975;The Towering Inferno;John Guillermin;Action, Drama, Thriller;165.0;PG;7;52674.0;69.0;69.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+1975;Chinatown;Roman Polanski;Drama, Mystery, Thriller;130.0;R;8,1;377390.0;92.0;98.0;5;0;0.0;1.0;0.0;0;1;1;1;0;1;0.0;0;0;0
+1974;American Graffiti;George Lucas;Comedy, Drama;110.0;PG;7,4;105550.0;97.0;95.0;2;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1974;The Sting;George Roy Hill;Comedy, Crime, Drama;129.0;PG;8,2;301734.0;83.0;93.0;4;1;0.0;0.0;0.0;1;0;0;1;0;0;1.0;0;0;0
+1974;A Touch of Class;Melvin Frank;Comedy, Romance;106.0;PG;6,5;3880.0;56.0;73.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1974;The Exorcist;William Friedkin;Horror;122.0;0;8,1;499237.0;81.0;84.0;4;0;0.0;1.0;0.0;0;0;1;1;0;1;0.0;0;0;0
+1974;Cries and Whispers;Ingmar Bergman;Drama;91.0;R;7,9;39802.0;0.0;94.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1973;Cabaret;Bob Fosse;Drama, Music, Musical;124.0;PG;7,8;64859.0;72.0;96.0;5;0;1.0;1.0;0.0;1;1;0;0;0;0;1.0;0;0;0
+1973;The Godfather;Francis Ford Coppola;Crime, Drama;175.0;R;9,2;2227113.0;100.0;97.0;5;1;0.0;1.0;0.0;0;0;1;1;0;1;0.0;0;0;0
+1973;The Emigrants;Jan Troell;Drama, History;151.0;PG;8;8271.0;72.0;96.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;1
+1973;Deliverance;John Boorman;Adventure, Drama, Thriller;109.0;R;7,6;128952.0;80.0;90.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1973;Sounder;Martin Ritt;Drama, Family;105.0;G;7,5;5325.0;80.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1972;Nicholas and Alexandra;Franklin J. Schaffner;Biography, Drama, History;183.0;PG;7,2;6210.0;57.0;69.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1972;Fiddler on the Roof;Norman Jewison;Drama, Family, Musical;181.0;G;8;52186.0;67.0;81.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1972;The Last Picture Show;Peter Bogdanovich;Drama, Romance;118.0;R;8;57005.0;93.0;98.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1972;The French Connection;William Friedkin;Action, Crime, Drama;104.0;R;7,6;150592.0;94.0;97.0;7;1;0.0;1.0;0.0;1;0;1;1;0;0;1.0;1;0;0
+1972;A Clockwork Orange;Stanley Kubrick;Crime, Sci-Fi;136.0;R;8,2;937205.0;77.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1971;Five Easy Pieces;Bob Rafelson;Drama;98.0;R;7,3;44450.0;85.0;89.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1971;Patton;Franklin J. Schaffner;Biography, Drama, War;172.0;PG;7,9;114561.0;86.0;92.0;4;1;0.0;0.0;0.0;1;0;0;1;0;0;1.0;0;0;0
+1971;Airport;George Seaton, Henry Hathaway;Action, Drama, Thriller;137.0;G;6,6;24580.0;42.0;72.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1971;Love Story;Arthur Hiller;Drama, Romance;100.0;PG;6,9;40300.0;84.0;60.0;3;0;0.0;1.0;0.0;0;0;1;0;0;1;0.0;0;0;0
+1971;MASH;Robert Altman;Comedy, Drama, War;116.0;R;7,3;82774.0;80.0;84.0;2;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1970;Anne of the Thousand Days;Charles Jarrott;Biography, Drama, History;145.0;M/PG;7,4;8810.0;69.0;72.0;2;0;0.0;1.0;0.0;0;0;0;0;0;1;0.0;0;0;0
+1970;Hello, Dolly!;Gene Kelly;Adventure, Comedy, Musical;146.0;G;7,1;18580.0;51.0;43.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1970;Midnight Cowboy;John Schlesinger;Drama;113.0;R;7,8;131874.0;79.0;89.0;6;1;1.0;0.0;0.0;1;1;0;1;0;0;0.0;1;0;0
+1970;Butch Cassidy and the Sundance Kid;George Roy Hill;Adventure, Biography, Crime;110.0;PG;8;239543.0;66.0;83.0;3;0;0.0;0.0;0.0;0;0;0;1;1;0;0.0;1;0;0
+1970;Z;Costa-Gavras;Crime, Drama, Thriller;127.0;PG;8,1;34035.0;86.0;82.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;1;0
+1969;The Lion in Winter;Anthony Harvey;Biography, Drama, History;134.0;PG;7,8;36823.0;83.0;91.0;2;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1969;Oliver!;Carol Reed;Drama, Family, Musical;153.0;G;7,4;44521.0;74.0;88.0;3;1;0.0;1.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1969;Romeo and Juliet;Franco Zeffirelli;Drama, Romance;138.0;NC-17;7,6;37411.0;68.0;75.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1969;Rachel, Rachel;Paul Newman;Drama, Romance;101.0;R;7,1;4487.0;74.0;92.0;1;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+1969;Funny Girl;William Wyler;Biography, Comedy, Drama;151.0;G;7,4;27488.0;88.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1968;Bonnie and Clyde;Arthur Penn;Action, Biography, Crime;111.0;R;7,7;128180.0;86.0;89.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1968;The Graduate;Mike Nichols;Comedy, Drama, Romance;106.0;PG;8;303253.0;83.0;87.0;8;0;1.0;1.0;0.0;1;1;1;0;1;0;0.0;1;1;0
+1968;In the Heat of the Night;Norman Jewison;Drama, Mystery, Thriller;110.0;Approved;7,9;91245.0;76.0;96.0;5;1;0.0;1.0;0.0;0;0;0;1;0;1;1.0;0;0;0
+1968;Doctor Dolittle;Richard Fleischer;Adventure, Comedy, Family;152.0;PG-13;6,2;11092.0;46.0;44.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1968;Guess Who's Coming to Dinner;Stanley Kramer;Comedy, Drama;108.0;Approved;7,8;52863.0;63.0;71.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1967;A Man for All Seasons;Fred Zinnemann;Biography, Drama, History;120.0;G;7,7;40322.0;72.0;89.0;5;1;1.0;1.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1967;Alfie;Lewis Gilbert;Comedy, Drama;114.0;R;7;16890.0;49.0;48.0;3;0;0.0;0.0;0.0;1;1;1;0;0;0;0.0;0;0;0
+1967;Who's Afraid of Virginia Woolf?;Mike Nichols;Drama;131.0;Approved;8;84317.0;75.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1967;The Russians Are Coming, the Russians Are Coming;Norman Jewison;Comedy, War;126.0;Approved;7;11214.0;69.0;83.0;3;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;1;1
+1967;The Sand Pebbles;Robert Wise;Adventure, Drama, Romance;182.0;Approved;7,5;17848.0;65.0;66.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1966;Doctor Zhivago;David Lean;Drama, Romance, War;197.0;Approved;7,9;87337.0;69.0;82.0;3;0;0.0;1.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1966;A Thousand Clowns;Fred Coe;Comedy, Drama, Romance;118.0;Approved;7,3;3966.0;70.0;72.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;1;1;0
+1966;Darling;John Schlesinger;Drama, Romance;128.0;Approved;7;8718.0;78.0;90.0;2;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;1;0
+1966;The Sound of Music;Robert Wise;Biography, Drama, Family;174.0;G;8,1;292003.0;63.0;83.0;5;1;0.0;1.0;0.0;1;0;1;0;0;0;1.0;0;0;0
+1966;Ship of Fools;Stanley Kramer;Drama, Romance, War;149.0;Approved;7;7734.0;73.0;63.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1965;My Fair Lady;George Cukor;Drama, Musical, Romance;170.0;G;7,7;107819.0;95.0;94.0;4;1;1.0;1.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1965;Zorba the Greek;Michael Cacoyannis;Comedy, Drama;142.0;Not Rated;7,6;25703.0;52.0;86.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1965;Becket;Peter Glenville;Biography, Drama, History;148.0;PG-13;7,7;17085.0;68.0;75.0;3;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;1;0
+1965;Mary Poppins;Robert Stevenson;Comedy, Family, Fantasy;139.0;G;7,8;198783.0;88.0;97.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+1965;Dr. Strangelove;Stanley Kubrick;Comedy, War;95.0;PG;8,3;551718.0;97.0;91.0;2;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;1
+1964;How the West Was Won;Dante Ross, Luke Wheatley;Documentary;164.0;G;7,1;25257.0;56.0;88.0;3;0;0.0;0.0;0.0;0;0;0;1;0;0;1.0;0;1;0
+1964;America America;Elia Kazan;Adventure, Drama;174.0;Approved;7,7;6456.0;72.0;67.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1964;Cleopatra;Ferdinando Baldi;Documentary;128.0;Not Rated;5,3;149.0;60.0;59.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1964;Lilies of the Field;Ralph Nelson;Comedy, Drama;94.0;Approved;7,5;15387.0;61.0;92.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1964;Tom Jones;Tony Richardson;Adventure, Comedy, History;129.0;Approved;6,3;15388.0;77.0;83.0;7;1;1.0;1.0;0.0;1;0;1;1;0;0;0.0;0;1;0
+1963;Lawrence of Arabia;David Lean;Adventure, Biography, Drama;227.0;PG;8,3;342434.0;100.0;93.0;5;1;1.0;1.0;0.0;1;0;0;0;0;0;1.0;0;0;0
+1963;The Longest Day;Ken Annakin, Andrew Marton, Gerd Oswald, Bernhard Wicki, Darryl F. Zanuck;Action, Drama, History;179.0;G;7,7;62828.0;75.0;83.0;2;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;1;0
+1963;Mutiny on the Bounty;Lewis Milestone, Carol Reed, George Seaton;Adventure, Drama, History;178.0;Approved;7,2;19486.0;87.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1963;The Music Man;Morton DaCosta;Comedy, Family, Musical;151.0;G;7,7;20770.0;76.0;94.0;2;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1963;To Kill a Mockingbird;Robert Mulligan;Crime, Drama;129.0;Approved;8,2;351865.0;88.0;93.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1962;The Guns of Navarone;J. Lee Thompson;Action, Adventure, Drama;158.0;Not Rated;7,5;59733.0;72.0;92.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1962;West Side Story;Jerome Robbins, Robert Wise;Crime, Drama, Musical;153.0;Approved;7,6;127712.0;86.0;92.0;5;1;0.0;1.0;0.0;1;0;1;0;0;0;1.0;0;0;0
+1962;The Hustler;Robert Rossen;Drama, Sport;134.0;Approved;7,9;91235.0;90.0;94.0;1;0;1.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1962;Judgment at Nuremberg;Stanley Kramer;Drama, History, War;179.0;Approved;8,3;97087.0;60.0;93.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1962;Fanny;Joshua Logan;Drama, Romance;134.0;Approved;6,8;2974.0;0.0;80.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1961;The Apartment;Billy Wilder;Comedy, Drama, Romance;125.0;Approved;8,3;219505.0;94.0;93.0;6;1;1.0;1.0;0.0;1;0;0;1;0;0;1.0;0;0;0
+1961;The Sundowners;Fred Zinnemann;Drama, Western;133.0;Approved;7,1;5294.0;82.0;79.0;2;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;1;0
+1961;Sons and Lovers;Jack Cardiff;Drama;103.0;Approved;7,1;1988.0;0.0;67.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1961;The Alamo;John Wayne;Adventure, Drama, History;162.0;PG-13;6,8;19637.0;47.0;55.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1961;Elmer Gantry;Richard Brooks;Drama;146.0;Approved;7,7;14529.0;67.0;87.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1960;The Nun's Story;Fred Zinnemann;Drama;149.0;Approved;7,5;12726.0;78.0;85.0;2;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;1;0
+1960;The Diary of Anne Frank;George Stevens;Biography, Drama, Family;180.0;Approved;7,4;14597.0;59.0;81.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1960;Room at the Top;Jack Clayton;Drama, Romance;115.0;Not Rated;7,5;8235.0;84.0;100.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1960;Anatomy of a Murder;Otto Preminger;Drama, Mystery;161.0;Approved;8;77888.0;95.0;100.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1960;Ben-Hur;William Wyler;Adventure, Drama;212.0;G;8,1;272278.0;90.0;87.0;5;1;1.0;1.0;0.0;1;0;0;0;0;0;1.0;0;0;0
+1959;Separate Tables;Delbert Mann;Drama, Romance;100.0;Approved;7,3;9809.0;68.0;68.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1959;Auntie Mame;Morton DaCosta;Comedy, Drama, Romance;143.0;Approved;7,9;13861.0;73.0;89.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1959;Cat on a Hot Tin Roof;Richard Brooks;Drama;108.0;Approved;7,9;57003.0;84.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1959;The Defiant Ones;Stanley Kramer;Crime, Drama;96.0;Approved;7,5;20077.0;69.0;90.0;2;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1959;Gigi;Vincente Minnelli, Charles Walters;Comedy, Musical, Romance;115.0;G;6,6;26186.0;82.0;90.0;6;1;0.0;1.0;0.0;1;0;1;1;0;0;1.0;0;0;0
+1958;Witness for the Prosecution;Billy Wilder;Crime, Drama, Mystery;116.0;Approved;8,4;162305.0;76.0;100.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1958;The Bridge on the River Kwai;David Lean;Adventure, Drama, War;161.0;PG;8,1;248823.0;88.0;96.0;7;1;1.0;1.0;0.0;1;0;1;1;0;0;1.0;0;0;0
+1958;Peyton Place;Mark Robson;Crime, Drama, Mystery;157.0;Approved;7,2;7252.0;63.0;65.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1958;12 Angry Men;Sidney Lumet;Crime, Drama;96.0;Approved;9;984833.0;97.0;100.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1958;Sayonara;Joshua Logan;Drama, Romance;147.0;Approved;7;8876.0;0.0;82.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1957;The Ten Commandments;Cecil B. DeMille;Adventure, Drama, Family;220.0;G;7,9;84796.0;0.0;84.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1957;Giant;George Stevens;Drama, Western;201.0;Approved;7,6;45243.0;84.0;78.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1957;Around the World in 80 Days;Michael Anderson, John Farrow;Adventure, Comedy, Family;175.0;PG;6,7;32037.0;49.0;33.0;6;1;0.0;1.0;0.0;1;0;1;1;0;0;1.0;0;0;0
+1957;The King and I;Walter Lang;Biography, Drama, Musical;133.0;G;7,4;29554.0;72.0;93.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1957;Friendly Persuasion;William Wyler;Drama, Family, Romance;137.0;Approved;7,3;8483.0;73.0;89.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1956;The Rose Tattoo;Daniel Mann;Comedy, Drama, Romance;117.0;Approved;6,9;5002.0;0.0;67.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1956;Love Is a Many-Splendored Thing;Henry King, Otto Lang;Biography, Drama, Romance;102.0;Approved;6,4;5869.0;60.0;63.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+1956;Mister Roberts;John Ford, Mervyn LeRoy, Joshua Logan;Comedy, Drama, War;123.0;Approved;7,6;19682.0;72.0;93.0;1;0;0.0;0.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1956;Picnic;Joshua Logan;Drama, Romance;115.0;PG;7;10718.0;0.0;45.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1956;Marty;Delbert Mann;Drama, Romance;90.0;Approved;7,6;30586.0;0.0;96.0;2;1;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1955;The Caine Mutiny;Edward Dmytryk;Drama, War;124.0;Approved;7,7;32241.0;63.0;95.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1955;On the Waterfront;Elia Kazan;Crime, Drama, Thriller;108.0;Approved;8,1;177890.0;91.0;99.0;6;1;0.0;1.0;0.0;1;0;0;1;0;0;1.0;0;1;0
+1955;The Country Girl;George Seaton;Drama, Music;104.0;Approved;7,2;7395.0;70.0;78.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1955;Three Coins in the Fountain;Jean Negulesco;Drama, Romance;102.0;Approved;6,3;4125.0;0.0;60.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1955;Seven Brides for Seven Brothers;Stanley Donen;Comedy, Musical, Romance;102.0;Approved;7,3;29316.0;75.0;89.0;1;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+1954;From Here to Eternity;Fred Zinnemann;Drama, Romance, War;118.0;Approved;7,6;54318.0;85.0;88.0;6;1;0.0;0.0;0.0;1;0;1;1;0;0;1.0;0;1;0
+1954;Shane;George Stevens;Drama, Western;118.0;Approved;7,6;47731.0;85.0;97.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1954;The Robe;Henry Koster;Drama, History, Romance;135.0;Approved;6,7;12979.0;51.0;38.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1954;Julius Caesar;Joseph L. Mankiewicz;Drama, History;120.0;Approved;7,2;14165.0;77.0;94.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1954;Roman Holiday;William Wyler;Comedy, Drama, Romance;118.0;Approved;8;158688.0;78.0;96.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1953;The Greatest Show on Earth;Cecil B. DeMille;Drama, Family, Romance;152.0;Approved;6,5;17408.0;76.0;50.0;5;1;0.0;1.0;0.0;1;0;1;0;0;0;0.0;0;1;0
+1953;High Noon;Fred Zinnemann;Drama, Thriller, Western;85.0;PG;7,9;116501.0;89.0;94.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;0;0
+1953;The Quiet Man;John Ford;Comedy, Drama, Romance;129.0;Approved;7,7;45900.0;85.0;91.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1953;Moulin Rouge;John Huston;Biography, Drama, Music;119.0;Approved;7;7316.0;0.0;73.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1953;Ivanhoe;Richard Thorpe;Action, Adventure, Drama;106.0;Approved;6,7;11304.0;75.0;79.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1952;Decision Before Dawn;Anatole Litvak;Drama, War;119.0;Approved;7,2;3314.0;62.0;100.0;2;0;0.0;0.0;0.0;0;0;0;0;0;0;1.0;0;1;0
+1952;A Streetcar Named Desire;Elia Kazan;Drama;122.0;Approved;7,9;120071.0;97.0;97.0;1;0;0.0;0.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1952;A Place in the Sun;George Stevens;Drama, Romance;122.0;Approved;7,7;26910.0;76.0;87.0;3;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;1;0
+1952;Quo Vadis;Mervyn LeRoy, Anthony Mann;Drama, Romance;171.0;Approved;7,1;18513.0;65.0;84.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1952;An American in Paris;Vincente Minnelli;Drama, Musical, Romance;114.0;Approved;7,1;39396.0;83.0;95.0;5;1;0.0;1.0;0.0;0;0;1;1;0;0;0.0;0;1;0
+1951;Sunset Boulevard;Billy Wilder;Crime, Drama, Musical;110.0;Approved;8,4;248927.0;94.0;98.0;4;0;0.0;1.0;0.0;0;0;0;1;0;0;1.0;0;1;0
+1951;King Solomon's Mines;Compton Bennett, Andrew Marton;Action, Adventure, Romance;103.0;TV-PG;6,7;7842.0;0.0;;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1951;Born Yesterday;George Cukor;Comedy, Drama, Romance;103.0;Approved;7,5;13650.0;0.0;95.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1951;All About Eve;Joseph L. Mankiewicz;Drama;138.0;Approved;8,2;149386.0;98.0;99.0;4;1;1.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1951;Father of the Bride;Vincente Minnelli;Comedy, Drama, Romance;92.0;PG;7,1;13524.0;51.0;71.0;1;0;0.0;0.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1950;Twelve O'Clock High;Henry King;Drama, War;132.0;Approved;7,7;16884.0;76.0;96.0;1;0;0.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+1950;A Letter to Three Wives;Joseph L. Mankiewicz;Comedy, Drama, Romance;103.0;Approved;7,6;11762.0;80.0;100.0;1;0;0.0;0.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1950;All the King's Men;Robert Rossen;Drama, Film-Noir;110.0;PG-13;7,4;18181.0;37.0;97.0;3;1;0.0;1.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1950;Battleground;William A. Wellman;Action, Drama, History;118.0;Approved;7,4;8531.0;72.0;78.0;2;0;0.0;0.0;0.0;0;0;0;1;0;1;0.0;0;0;0
+1950;The Heiress;William Wyler;Drama, Romance;115.0;Approved;8,1;19007.0;85.0;97.0;1;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;1;0
+1949;The Snake Pit;Anatole Litvak;Drama, Mystery;108.0;Approved;7,5;9140.0;76.0;100.0;1;0;0.0;0.0;0.0;1;0;0;0;0;0;0.0;0;0;0
+1949;Johnny Belinda;Jean Negulesco;Drama;102.0;Approved;7,7;5824.0;74.0;88.0;1;0;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1949;The Treasure of the Sierra Madre;John Huston;Adventure, Drama, Western;126.0;Approved;8,2;141543.0;98.0;100.0;2;0;0.0;1.0;0.0;0;0;0;1;0;0;0.0;0;0;0
+1949;Hamlet;Laurence Olivier;Drama;154.0;PG-13;7,5;19954.0;88.0;94.0;3;1;1.0;0.0;0.0;0;0;1;0;0;0;0.0;0;0;0
+1949;The Red Shoes;Michael Powell, Emeric Pressburger;Drama, Music, Romance;135.0;Approved;8,1;43635.0;0.0;98.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1948;Great Expectations;David Lean;Adventure, Drama, Mystery;118.0;R;7,8;28344.0;55.0;41.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1948;Crossfire;Edward Dmytryk;Crime, Drama, Film-Noir;86.0;Approved;7,2;10912.0;0.0;88.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1948;Gentleman's Agreement;Elia Kazan;Drama, Romance;118.0;Approved;7,2;19188.0;72.0;75.0;2;1;0.0;1.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1948;Miracle on 34th Street;George Seaton;Comedy, Drama, Family;96.0;Approved;7,9;61081.0;88.0;96.0;5;0;0.0;0.0;0.0;1;0;1;1;0;1;0.0;0;1;0
+1948;The Bishop's Wife;Henry Koster;Comedy, Drama, Fantasy;109.0;Approved;7,6;23866.0;73.0;85.0;0;0;0.0;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1947;It's a Wonderful Life;Frank Capra;Drama, Family, Fantasy;130.0;PG;8,6;555036.0;89.0;94.0;0;0;;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1947;Henry V;Kenneth Branagh;Drama;137.0;PG-13;7,5;32294.0;83.0;98.0;0;0;;0.0;0.0;0;0;0;0;0;0;0.0;0;0;0
+1947;The Best Years of Our Lives;William Wyler;Drama, Romance, War;170.0;Approved;8,1;77585.0;93.0;98.0;7;1;1.0;1.0;0.0;1;0;1;1;0;0;1.0;0;0;0
