@@ -1,9 +1,3 @@
-"""
-oscar_config.py
----------------
-Motyw kolorystyczny, etykiety cech i funkcja lbl().
-"""
-
 BG     = "#0A0A0A"
 PANEL  = "#141414"
 GOLD   = "#F5C518"

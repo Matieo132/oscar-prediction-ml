@@ -3,3 +3,6 @@ __pycache__/
 *.pyo
 .env
 *.pdf
+.venv/
+.DS_Store
+wyniki/

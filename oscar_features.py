@@ -1,19 +1,9 @@
-"""
-oscar_features.py
------------------
-Wyciąganie ważności cech i obliczanie Average Marginal Effect (AME).
-"""
-
 import numpy as np
 import pandas as pd
 from scipy.special import expit as sigmoid
 
 
 def get_importances(model, X_te, y_te, feature_cols):
-    """
-    Zwraca (importances, imp_label, method_note) — działa dla drzew,
-    modeli liniowych i fallbacku permutation importance.
-    """
     if hasattr(model, "feature_importances_"):
         return (
             model.feature_importances_,
@@ -50,10 +40,6 @@ def get_importances(model, X_te, y_te, feature_cols):
 
 
 def compute_ame(model, X, feature_cols, numeric_idx, importances):
-    """
-    Average Marginal Effect — zmiana P(win) w pp przy zmianie cechy 0→1.
-    Dla cech numerycznych używa znormalizowanych importances jako proxy.
-    """
     ame = {}
 
     try:
@@ -86,10 +72,6 @@ def compute_ame(model, X, feature_cols, numeric_idx, importances):
 
 
 def fill_numeric_ame(ame_dict, importances, feature_cols, numeric_idx):
-    """
-    Wypełnia None dla cech numerycznych znormalizowanymi importances
-    przeskalowanymi do zakresu binarnych AME.
-    """
     num_imps = {feature_cols[i]: importances[i] for i in numeric_idx}
     num_total = sum(num_imps.values())
     max_ame = max((v for v in ame_dict.values() if v is not None), default=5)

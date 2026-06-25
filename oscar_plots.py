@@ -1,9 +1,3 @@
-"""
-oscar_plots.py
---------------
-Funkcje rysujące wszystkie trzy wykresy Oscar Night.
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -31,11 +25,11 @@ def set_dark(ax, title="", xlabel="", ylabel=""):
 
 
 def plot_top5(res_df, output_path="wyniki/oscar_night_top5.png"):
-    """Wykres 1 — porównanie top 5 klasyfikatorów wg F1."""
     top5 = res_df.nlargest(5, "F1").sort_values("F1", ascending=True)
     metrics  = ["Bal.Acc", "Precision", "Recall", "F1", "AUC"]
     m_labels = ["Zbal.Dok.", "Precyzja", "Czułość", "F1", "AUC"]
     m_colors = [WHITE, TEAL, BLUE, GOLD, RED]
+    has_std  = f"{metrics[0]}_std" in res_df.columns
 
     n = len(top5)
     bar_h = 0.12
@@ -44,12 +38,16 @@ def plot_top5(res_df, output_path="wyniki/oscar_night_top5.png"):
     off = np.linspace(-(len(metrics) - 1) / 2, (len(metrics) - 1) / 2, len(metrics)) * bar_h
 
     fig, ax = plt.subplots(figsize=(10, 5))
-    set_dark(ax, title="Porównanie modeli — Top 5", xlabel="Wartość metryki")
+    title = "Porównanie modeli — Top 5" + (" (śr. ± std, K-fold)" if has_std else "")
+    set_dark(ax, title=title, xlabel="Wartość metryki")
 
     for i, (m, lm, c) in enumerate(zip(metrics, m_labels, m_colors)):
         vals = top5[m].astype(float).values
+        errs = top5[f"{m}_std"].astype(float).values if has_std else None
         bars = ax.barh(pos + off[i], vals, height=bar_h * 0.88,
-                       color=c, alpha=0.88, label=lm, edgecolor=BG, lw=0.4)
+                       color=c, alpha=0.88, label=lm, edgecolor=BG, lw=0.4,
+                       xerr=errs, error_kw={"ecolor": WHITE, "elinewidth": 0.8,
+                                            "capsize": 2, "alpha": 0.7} if errs is not None else {})
         for b, v in zip(bars, vals):
             if v > 0.05:
                 ax.text(v + 0.007, b.get_y() + b.get_height() / 2, f"{v:.2f}",
@@ -73,7 +71,6 @@ def plot_top5(res_df, output_path="wyniki/oscar_night_top5.png"):
 
 def plot_predictions(year_results, best_name, pred_years,
                      output_path="wyniki/oscar_night_predictions.png"):
-    """Wykres 2 — predykcja dla każdego z przewidywanych lat."""
     fig, axes = plt.subplots(1, len(pred_years), figsize=(18, 7),
                              gridspec_kw={"wspace": 0.5})
     fig.patch.set_facecolor(BG)
@@ -141,7 +138,6 @@ def plot_predictions(year_results, best_name, pred_years,
 
 def plot_features(imp, best_name, ame_series,
                   output_path="wyniki/oscar_night_features.png"):
-    """Wykres 3 — top 20 cech wg AME."""
     def _pick_color(f):
         if f.startswith("Gatunek:"):
             return TEAL
@@ -180,3 +176,120 @@ def plot_features(imp, best_name, ame_series,
     print("\nTop 10 cech wg AME:")
     for feat, val in ame_series.nlargest(10).items():
         print(f"  {val:+.1f} pp  {feat}")
+
+
+def plot_ttest(res_df, ttest_df, best_name,
+               output_path="wyniki/oscar_night_ttest.png"):
+    sig_color = {"***": GOLD, "**": TEAL, "*": BLUE, "ns": DIM}
+    sig_label = {
+        "***": "p < 0.001",
+        "**":  "p < 0.01",
+        "*":   "p < 0.05",
+        "ns":  "p ≥ 0.05  (brak istotności)",
+    }
+
+    sig_map  = dict(zip(ttest_df["Model"], ttest_df["istotność"]))
+    pval_map = dict(zip(ttest_df["Model"], ttest_df["p-wartość"]))
+
+    df = res_df[["Model", "F1", "F1_std"]].copy()
+    df["sig"]   = df["Model"].map(sig_map).fillna("best")
+    df["p_val"] = df["Model"].map(pval_map).fillna(np.nan)
+    df = df.sort_values("F1", ascending=True).reset_index(drop=True)
+
+    best_f1 = res_df.loc[res_df["Model"] == best_name, "F1"].values[0]
+
+    bar_colors = [
+        RED if row["sig"] == "best" else sig_color.get(row["sig"], DIM)
+        for _, row in df.iterrows()
+    ]
+
+    n = len(df)
+    fig, (ax_main, ax_sig) = plt.subplots(
+        1, 2, figsize=(13, n * 0.38 + 1.6),
+        gridspec_kw={"width_ratios": [5, 1], "wspace": 0.04},
+    )
+    fig.patch.set_facecolor(BG)
+
+    ax_main.set_facecolor(PANEL)
+    for sp in ax_main.spines.values():
+        sp.set_edgecolor("#333")
+
+    y = np.arange(n)
+    ax_main.barh(
+        y, df["F1"].values,
+        xerr=df["F1_std"].values,
+        color=bar_colors, edgecolor=BG, lw=0.3, alpha=0.88, height=0.72,
+        error_kw={"ecolor": WHITE, "elinewidth": 1.0, "capsize": 3, "alpha": 0.55},
+    )
+
+    for i, (_, row) in enumerate(df.iterrows()):
+        v = row["F1"]
+        c = RED if row["sig"] == "best" else sig_color.get(row["sig"], DIM)
+        ax_main.text(
+            v + row["F1_std"] + 0.005, i,
+            f"{v:.3f}", va="center", ha="left", fontsize=8.5,
+            color=c if c != DIM else WHITE,
+        )
+
+    ax_main.axvline(best_f1, color=RED, lw=1.6, ls="--", alpha=0.75, zorder=3)
+    ax_main.text(
+        best_f1 + 0.003, -0.9,
+        f"F1 = {best_f1:.3f}\n({best_name})",
+        color=RED, fontsize=8, va="top", ha="left",
+    )
+
+    ns_f1s = df.loc[df["sig"] == "ns", "F1"].values
+    if len(ns_f1s):
+        ax_main.axvspan(ns_f1s.min() - 0.005, best_f1,
+                        color=WHITE, alpha=0.04, zorder=0)
+
+    ax_main.set_yticks(y)
+    ax_main.set_yticklabels(df["Model"].tolist(), fontsize=9.5, color=WHITE)
+    ax_main.tick_params(colors=WHITE, labelsize=9)
+    ax_main.set_xlabel("Średni F1-score (5-fold CV)", color=WHITE, fontsize=11)
+    ax_main.xaxis.label.set_color(WHITE)
+    ax_main.grid(axis="x", color=GRID, lw=0.6, ls="--", alpha=0.7)
+    ax_main.set_xlim(0, df["F1"].max() + df["F1_std"].max() + 0.07)
+    ax_main.set_title(
+        f"Testy statystyczne — sparowany t-test (5-fold CV)\n"
+        f"Referencja: {best_name}",
+        color=GOLD, fontsize=13, fontweight="bold", pad=10,
+    )
+
+    ax_sig.set_facecolor(PANEL)
+    for sp in ax_sig.spines.values():
+        sp.set_edgecolor("#333")
+    ax_sig.set_yticks([])
+    ax_sig.set_xticks([])
+    ax_sig.set_xlim(0, 1)
+    ax_sig.set_ylim(-0.5, n - 0.5)
+
+    for i, (_, row) in enumerate(df.iterrows()):
+        sig = row["sig"]
+        if sig == "best":
+            label, color, fw = "★ best", RED, "bold"
+        else:
+            label = sig
+            color = sig_color.get(sig, WHITE)
+            fw = "bold" if sig != "ns" else "normal"
+        ax_sig.text(0.5, i, label, va="center", ha="center",
+                    fontsize=10, color=color, fontweight=fw)
+
+    ax_sig.set_title("Istotność", color=WHITE, fontsize=10, pad=10)
+
+    patches = [
+        mpatches.Patch(color=RED,  label=f"★  {best_name} (model referencyjny)"),
+    ] + [
+        mpatches.Patch(color=sig_color[k], label=f"{k}  {sig_label[k]}")
+        for k in ["***", "**", "*", "ns"]
+    ]
+    fig.legend(
+        handles=patches, loc="lower center", ncol=3, fontsize=9.5,
+        facecolor="#1A1A1A", edgecolor="#444", labelcolor=WHITE,
+        framealpha=0.9, bbox_to_anchor=(0.5, 0.0),
+    )
+
+    plt.tight_layout(rect=[0, 0.07, 1, 1])
+    fig.savefig(output_path, dpi=180, bbox_inches="tight", facecolor=BG)
+    plt.close()
+    print(f"[wykres] {output_path}")

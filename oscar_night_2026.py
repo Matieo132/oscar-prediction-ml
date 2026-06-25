@@ -1,29 +1,13 @@
-"""
-oscar_night_2026.py
--------------------
-Scenariusz "Oscar night":
-  - Podczas gali znane są już wyniki innych kategorii Oscarów
-    (Reżyseria, Scenariusz, Montaż, Zdjęcia)
-  - Model przewiduje który film zdobędzie Oscara za NAJLEPSZY FILM
-
-Generuje 3 wykresy:
-  1. wyniki/oscar_night_top5.png         — porównanie top 5 klasyfikatorów
-  2. wyniki/oscar_night_predictions.png  — predykcja 2024/2025/2026
-  3. wyniki/oscar_night_features.png     — ważność cech
-
-Uruchomienie:
-    python oscar_night_2026.py
-"""
-
 import os, sys, warnings
 sys.stdout.reconfigure(encoding="utf-8")
 import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
+from scipy import stats
 
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import (
     balanced_accuracy_score, f1_score, roc_auc_score,
     precision_score, recall_score,
@@ -36,47 +20,96 @@ from models import get_models
 from oscar_config import lbl
 from oscar_data import load_oscar_night, NUMERIC_IDX
 from oscar_features import get_importances, compute_ame, fill_numeric_ame
-from oscar_plots import plot_top5, plot_predictions, plot_features
+from oscar_plots import plot_top5, plot_predictions, plot_features, plot_ttest
 
 os.makedirs("wyniki", exist_ok=True)
 
-# ── 1. Trenuj modele na całym zbiorze ────────────────────────────────────
-print("=== Trenuję modele (tryb Oscar night, cały zbiór) ===")
+N_FOLDS = 5
+print(f"=== Trenuję modele (tryb Oscar night, {N_FOLDS}-fold CV) ===")
 train_df, _, feature_cols, TARGET = load_oscar_night()
 
 X = train_df[feature_cols].values
 y = train_df[TARGET].values
-X_tr, X_te, y_tr, y_te = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y)
 
-scaler = StandardScaler()
-X_tr[:, NUMERIC_IDX] = scaler.fit_transform(X_tr[:, NUMERIC_IDX])
-X_te[:, NUMERIC_IDX] = scaler.transform(X_te[:, NUMERIC_IDX])
+skf = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=42)
+
+fold_scores = {
+    name: {"Bal.Acc": [], "Precision": [], "Recall": [], "F1": [], "AUC": []}
+    for name in get_models(random_state=42)
+}
+
+for fold_idx, (tr_idx, te_idx) in enumerate(skf.split(X, y), 1):
+    X_tr, X_te = X[tr_idx].copy(), X[te_idx].copy()
+    y_tr, y_te = y[tr_idx], y[te_idx]
+
+    scaler = StandardScaler()
+    X_tr[:, NUMERIC_IDX] = scaler.fit_transform(X_tr[:, NUMERIC_IDX])
+    X_te[:, NUMERIC_IDX] = scaler.transform(X_te[:, NUMERIC_IDX])
+
+    print(f"\n  [Fold {fold_idx}/{N_FOLDS}]")
+    for name, model in get_models(random_state=42).items():
+        print(f"    {name}", end=" … ", flush=True)
+        model.fit(X_tr, y_tr)
+        yp    = model.predict(X_te)
+        yprob = model.predict_proba(X_te)[:, 1] if hasattr(model, "predict_proba") else None
+        fold_scores[name]["Bal.Acc"].append(balanced_accuracy_score(y_te, yp))
+        fold_scores[name]["Precision"].append(precision_score(y_te, yp, zero_division=0))
+        fold_scores[name]["Recall"].append(recall_score(y_te, yp, zero_division=0))
+        fold_scores[name]["F1"].append(f1_score(y_te, yp, zero_division=0))
+        fold_scores[name]["AUC"].append(
+            roc_auc_score(y_te, yprob) if yprob is not None else np.nan
+        )
+        print("✓")
 
 results = []
-for name, model in get_models(random_state=42).items():
-    print(f"  {name}")
-    model.fit(X_tr, y_tr)
-    yp    = model.predict(X_te)
-    yprob = model.predict_proba(X_te)[:, 1] if hasattr(model, "predict_proba") else None
-    results.append({
-        "Model":     name,
-        "Bal.Acc":   round(balanced_accuracy_score(y_te, yp), 4),
-        "Precision": round(precision_score(y_te, yp, zero_division=0), 4),
-        "Recall":    round(recall_score(y_te, yp, zero_division=0), 4),
-        "F1":        round(f1_score(y_te, yp, zero_division=0), 4),
-        "AUC":       round(roc_auc_score(y_te, yprob), 4) if yprob is not None else np.nan,
-    })
+for name, scores in fold_scores.items():
+    row = {"Model": name}
+    for m, vals in scores.items():
+        arr = np.array(vals, dtype=float)
+        row[m]          = round(float(np.nanmean(arr)), 4)
+        row[f"{m}_std"] = round(float(np.nanstd(arr)),  4)
+    results.append(row)
 
 res_df = pd.DataFrame(results)
 res_df.to_csv("wyniki/oscar_night_metryki.csv", index=False)
-print("\nTop 10 wg F1:")
-print(res_df.nlargest(10, "F1")[["Model", "Bal.Acc", "F1", "AUC"]].to_string(index=False))
+
+print("\nTop 10 wg F1 (średnia ± odch.std po foldach):")
+cols_show = ["Model", "Bal.Acc", "Bal.Acc_std", "F1", "F1_std", "AUC", "AUC_std"]
+print(res_df.nlargest(10, "F1")[cols_show].to_string(index=False))
 
 plot_top5(res_df)
 
-# ── 2. Predykcja 2024 / 2025 / 2026 (leave-one-year-out) ────────────────
-best_name  = res_df.nlargest(1, "F1")["Model"].values[0]
+best_name = res_df.nlargest(1, "F1")["Model"].values[0]
+best_f1   = np.array(fold_scores[best_name]["F1"], dtype=float)
+
+print(f"\n=== Sparowany t-test (F1, {N_FOLDS} foldów): {best_name} vs pozostałe ===")
+print(f"  {'Model':<35}  {'ΔF1':>7}  {'t':>7}  {'p-wartość':>10}  Istotność")
+print("  " + "-" * 70)
+
+ttest_rows = []
+for name, scores in fold_scores.items():
+    if name == best_name:
+        continue
+    other_f1 = np.array(scores["F1"], dtype=float)
+    t_stat, p_val = stats.ttest_rel(best_f1, other_f1)
+    diff = float(np.nanmean(best_f1)) - float(np.nanmean(other_f1))
+    sig  = "***" if p_val < 0.001 else ("**" if p_val < 0.01 else ("*" if p_val < 0.05 else "ns"))
+    ttest_rows.append({
+        "Model":          name,
+        "ΔF1 (vs best)":  round(diff,   4),
+        "t-statystyka":   round(t_stat,  4),
+        "p-wartość":      round(p_val,   6),
+        "istotność":      sig,
+    })
+    print(f"  {name:<35}  {diff:>+7.4f}  {t_stat:>+7.3f}  {p_val:>10.4f}  {sig}")
+
+ttest_df = pd.DataFrame(ttest_rows).sort_values("p-wartość")
+ttest_df.to_csv("wyniki/oscar_night_ttest.csv", index=False)
+print(f"\n  Legenda: * p<0.05  ** p<0.01  *** p<0.001  ns = brak istotności statystycznej")
+print(f"  Wyniki → wyniki/oscar_night_ttest.csv")
+
+plot_ttest(res_df, ttest_df, best_name)
+
 PRED_YEARS = [2024, 2025, 2026]
 print(f"\n=== Predykcja {'/'.join(map(str, PRED_YEARS))} — model: {best_name} ===")
 
@@ -110,14 +143,17 @@ for yr in PRED_YEARS:
 
 plot_predictions(year_results, best_name, PRED_YEARS)
 
-# ── 3. Feature importance ────────────────────────────────────────────────
-fi_model = get_models(random_state=42)[best_name]
-fi_model.fit(X_tr, y_tr)
+scaler_full = StandardScaler()
+X_full = X.copy()
+X_full[:, NUMERIC_IDX] = scaler_full.fit_transform(X_full[:, NUMERIC_IDX])
 
-importances, imp_label, method_note = get_importances(fi_model, X_te, y_te, feature_cols)
+fi_model = get_models(random_state=42)[best_name]
+fi_model.fit(X_full, y)
+
+importances, imp_label, method_note = get_importances(fi_model, X_full, y, feature_cols)
 print(f"\n[feature importance] metoda: {method_note} dla modelu: {best_name}")
 
-ame_dict = compute_ame(fi_model, X_tr, feature_cols, NUMERIC_IDX, importances)
+ame_dict = compute_ame(fi_model, X_full, feature_cols, NUMERIC_IDX, importances)
 ame_dict = fill_numeric_ame(ame_dict, importances, feature_cols, NUMERIC_IDX)
 
 ame_series = pd.Series({lbl(k): v for k, v in ame_dict.items()
@@ -130,4 +166,6 @@ print("\n✓ Gotowe! Wykresy zapisane w ./wyniki/")
 print("  oscar_night_top5.png         — porównanie top 5 klasyfikatorów")
 print("  oscar_night_predictions.png  — predykcja 2024/2025/2026")
 print("  oscar_night_features.png     — ważność cech")
-print("  oscar_night_metryki.csv      — pełna tabela metryk")
+print("  oscar_night_metryki.csv      — pełna tabela metryk (śr. z K-fold)")
+print("  oscar_night_ttest.csv        — sparowany t-test (najlepszy vs reszta)")
+print("  oscar_night_ttest.png        — wizualizacja testów statystycznych")

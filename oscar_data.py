@@ -1,9 +1,3 @@
-"""
-oscar_data.py
--------------
-Ładowanie i preprocessing danych w trybie Oscar Night.
-"""
-
 import re
 import numpy as np
 import pandas as pd
@@ -34,21 +28,8 @@ NUMERIC_IDX = list(range(len(NUMERIC)))   # pierwsze kolumny feature_cols to NUM
 
 def load_oscar_night(data_path="oscary_dane.csv", exclude_year=None,
                      include_genres=False, include_critic=False):
-    """
-    Tryb Oscar night: cechy = numeryczne + pre-Oscar + Oscar Night.
-    Domyślnie Etap 3 (optymalny wg ablation study).
-
-    Parametry:
-      exclude_year    — wyklucza rok z treningu (leave-one-year-out)
-      include_genres  — dodaj one-hot gatunków (Etap 4; pogarsza wyniki)
-      include_critic  — dodaj critic_vs_audience (Etap 5; mieszany efekt)
-
-    Zwraca (train_df, pred_df, feature_cols, TARGET).
-    pred_df == None gdy exclude_year=None.
-    """
     df = pd.read_csv(data_path, sep=";")
 
-    # Naprawa typów
     df["IMDb_Rating"] = df["IMDb_Rating"].apply(
         lambda v: float(str(v).replace(",", ".")) if pd.notna(v) else np.nan
     )
